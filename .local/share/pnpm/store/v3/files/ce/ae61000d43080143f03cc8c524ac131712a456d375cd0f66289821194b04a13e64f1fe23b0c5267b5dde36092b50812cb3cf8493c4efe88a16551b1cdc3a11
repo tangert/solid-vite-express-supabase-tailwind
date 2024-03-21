@@ -1,0 +1,57 @@
+{
+  "name": "@vavite/connect",
+  "version": "3.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./entry-standalone": {
+      "import": "./dist/entry-standalone.js"
+    },
+    "./entry-standalone-bundled-sirv": {
+      "import": "./dist/entry-standalone-bundled-sirv.js"
+    },
+    "./entry-standalone-imported-sirv": {
+      "import": "./dist/entry-standalone-imported-sirv.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
+  "description": "Vite plugin for developing Node.js server applications",
+  "author": "Fatih Aygün <cyco130@gmail.com>",
+  "repository": "https://github.com/cyco130/vavite",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^2.8.1 || 3 || 4"
+  },
+  "devDependencies": {
+    "@cyco130/eslint-config": "^3.3.2",
+    "eslint": "^8.50.0",
+    "sirv": "^2.0.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@types/node": "^20.6.5"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "pnpm run test:typecheck && pnpm run test:lint && pnpm run test:package",
+    "test:typecheck": "tsc -p tsconfig.json --noEmit",
+    "test:lint": "eslint . --max-warnings 0 --ignore-pattern dist",
+    "test:package": "publint --strict"
+  }
+}
