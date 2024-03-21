@@ -4,7 +4,7 @@ import "./index.css";
 
 function App() {
   return (
-    <main>
+    <main class="p-2">
       <h1 class="text-3xl font-bold underline">Hello client/index.tsx</h1>
       <Counter />
     </main>
