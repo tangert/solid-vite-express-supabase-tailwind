@@ -1,0 +1,19 @@
+/**
+* @license lucide-solid v0.360.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+
+// src/icons/send-horizontal.tsx
+import Icon from "../Icon";
+var iconNode = [
+  ["path", { d: "m3 3 3 9-3 9 19-9Z", key: "1aobqy" }],
+  ["path", { d: "M6 12h16", key: "s4cdu5" }]
+];
+var SendHorizontal = (props) => <Icon {...props} name="SendHorizontal" iconNode={iconNode} />;
+var send_horizontal_default = SendHorizontal;
+export {
+  send_horizontal_default as default
+};
+//# sourceMappingURL=send-horizontal.jsx.map

@@ -1,0 +1,21 @@
+/**
+* @license lucide-solid v0.360.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+
+// src/icons/bar-chart-3.tsx
+import Icon from "../Icon";
+var iconNode = [
+  ["path", { d: "M3 3v18h18", key: "1s2lah" }],
+  ["path", { d: "M18 17V9", key: "2bz60n" }],
+  ["path", { d: "M13 17V5", key: "1frdt8" }],
+  ["path", { d: "M8 17v-3", key: "17ska0" }]
+];
+var BarChart3 = (props) => <Icon {...props} name="BarChart3" iconNode={iconNode} />;
+var bar_chart_3_default = BarChart3;
+export {
+  bar_chart_3_default as default
+};
+//# sourceMappingURL=bar-chart-3.jsx.map

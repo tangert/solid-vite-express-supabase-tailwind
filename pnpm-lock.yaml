@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@solid-primitives/storage':
+    specifier: 2.1.4
+    version: 2.1.4(solid-js@1.8.7)
+  '@solidjs/router':
+    specifier: 0.13.1
+    version: 0.13.1(solid-js@1.8.7)
   '@supabase/auth-js':
     specifier: 2.62.1
     version: 2.62.1
@@ -26,6 +32,9 @@ dependencies:
   express:
     specifier: ^4.18.2
     version: 4.18.2
+  lucide-solid:
+    specifier: 0.360.0
+    version: 0.360.0(solid-js@1.8.7)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -760,6 +769,35 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@solid-primitives/storage@2.1.4(solid-js@1.8.7):
+    resolution: {integrity: sha512-ziGRMSPi2PDnY6L6YPGWYnzmUEPIwO0PaDT9N1WNW9P2tUMMhgqKLXBrYfjytpjwY3UM6kIrbONMRADjyGtzAw==}
+    peerDependencies:
+      solid-js: ^1.6.12
+      solid-start: '>=0.2.26'
+    peerDependenciesMeta:
+      solid-start:
+        optional: true
+    dependencies:
+      '@solid-primitives/utils': 6.2.3(solid-js@1.8.7)
+      solid-js: 1.8.7
+    dev: false
+
+  /@solid-primitives/utils@6.2.3(solid-js@1.8.7):
+    resolution: {integrity: sha512-CqAwKb2T5Vi72+rhebSsqNZ9o67buYRdEJrIFzRXz3U59QqezuuxPsyzTSVCacwS5Pf109VRsgCJQoxKRoECZQ==}
+    peerDependencies:
+      solid-js: ^1.6.12
+    dependencies:
+      solid-js: 1.8.7
+    dev: false
+
+  /@solidjs/router@0.13.1(solid-js@1.8.7):
+    resolution: {integrity: sha512-Rz5Lf0ssWMuN+Wm2GFO0vwZoO/KSwYFSuCUzWrRAvje5M0ZYZrMk5FZxuzdJT+zg8KuqWJQlRALks5E0r+FjAA==}
+    peerDependencies:
+      solid-js: ^1.8.6
+    dependencies:
+      solid-js: 1.8.7
+    dev: false
 
   /@supabase/auth-js@2.62.1:
     resolution: {integrity: sha512-hUFX1iwKCUURydCS9nbnYyuQ82FYK9Be6fQVkFXX5oM7rmMUOvlcbZu9voG4eeFu/8ScjmOdEKQcUpPqTSWlFg==}
@@ -1715,6 +1753,14 @@ packages:
     dependencies:
       yallist: 3.1.1
     dev: true
+
+  /lucide-solid@0.360.0(solid-js@1.8.7):
+    resolution: {integrity: sha512-cujmfyCI3HpevnoV/iBIH+EzJaLT41j/04bbLvx1VHjMOtaU2aFN71HfDQ7XgiTpFFkIqjjsTeMs7XiB6iXYHw==}
+    peerDependencies:
+      solid-js: ^1.4.7
+    dependencies:
+      solid-js: 1.8.7
+    dev: false
 
   /media-typer@0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}

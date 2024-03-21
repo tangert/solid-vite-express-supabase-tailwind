@@ -1,0 +1,20 @@
+/**
+* @license lucide-solid v0.360.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+
+// src/icons/moon-star.tsx
+import Icon from "../Icon";
+var iconNode = [
+  ["path", { d: "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z", key: "a7tn18" }],
+  ["path", { d: "M19 3v4", key: "vgv24u" }],
+  ["path", { d: "M21 5h-4", key: "1wcg1f" }]
+];
+var MoonStar = (props) => <Icon {...props} name="MoonStar" iconNode={iconNode} />;
+var moon_star_default = MoonStar;
+export {
+  moon_star_default as default
+};
+//# sourceMappingURL=moon-star.jsx.map

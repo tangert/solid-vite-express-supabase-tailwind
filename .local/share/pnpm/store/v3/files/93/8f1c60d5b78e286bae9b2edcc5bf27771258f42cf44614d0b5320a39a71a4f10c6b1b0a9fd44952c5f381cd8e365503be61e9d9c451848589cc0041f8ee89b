@@ -1,0 +1,19 @@
+/**
+* @license lucide-solid v0.360.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+
+// src/icons/eye.tsx
+import Icon from "../Icon";
+var iconNode = [
+  ["path", { d: "M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z", key: "rwhkz3" }],
+  ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
+];
+var Eye = (props) => <Icon {...props} name="Eye" iconNode={iconNode} />;
+var eye_default = Eye;
+export {
+  eye_default as default
+};
+//# sourceMappingURL=eye.jsx.map

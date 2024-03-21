@@ -1,0 +1,19 @@
+/**
+* @license lucide-solid v0.360.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+
+// src/icons/compass.tsx
+import Icon from "../Icon";
+var iconNode = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polygon", { points: "16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76", key: "m9r19z" }]
+];
+var Compass = (props) => <Icon {...props} name="Compass" iconNode={iconNode} />;
+var compass_default = Compass;
+export {
+  compass_default as default
+};
+//# sourceMappingURL=compass.jsx.map

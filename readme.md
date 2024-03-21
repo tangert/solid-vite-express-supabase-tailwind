@@ -1,3 +1,8 @@
-# SolidJS with Express and Supabase
+# tangert's web stack
 
-A simple express server serving a client side render [SolidJS](https://www.solidjs.com/) app.
+- SolidJS
+- Express
+- Vite + Vavite
+- Tailwind
+- Lucide icons
+- Supabase

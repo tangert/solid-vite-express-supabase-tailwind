@@ -1,0 +1,16 @@
+/**
+* @license lucide-solid v0.360.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+
+// src/icons/activity.tsx
+import Icon from "../Icon";
+var iconNode = [["path", { d: "M22 12h-4l-3 9L9 3l-3 9H2", key: "d5dnw9" }]];
+var Activity = (props) => <Icon {...props} name="Activity" iconNode={iconNode} />;
+var activity_default = Activity;
+export {
+  activity_default as default
+};
+//# sourceMappingURL=activity.jsx.map
